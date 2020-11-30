@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #e4e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sertificat {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding-top: 3%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sertificat p {
+  font-size: 1.3em;
+  text-shadow: 1px -1px 0 #767676;
+}
+.sertificat .sertificat__images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.sertificat .sertificat__images img {
+  width: 45%;
+  margin: 2%;
+  border-radius: 5px;
+}
